@@ -1,4 +1,4 @@
-# 📹 Face Count System and Buzzer Alert System 📢
+## Face Count System and Buzzer Alert System
 
 This project involves a distributed system using ESP32 modules to stream video, detect and count human faces, and trigger a buzzer based on the max detected face count limit. The system consists of three main components:
 
@@ -6,13 +6,13 @@ This project involves a distributed system using ESP32 modules to stream video, 
 2. **Face Detection Server**: Processes the video stream to count faces.
 3. **Pocket ESP32 Module**: Receives face count updates shows it in led and triggers a buzzer in real-time.
 
-## 🎯 How It Works
+## How It Works
 
 1. **Video Streaming**: The ESP32-CAM captures and streams live video to the Face Detection Server.
 2. **Face Detection**: The Face Detection Server receives the video stream, processes it using face detection algorithms, and counts the number of faces.
 3. **Real-Time Updates**: The Pocket ESP32 Module receives face count data and triggers the buzzer based on predefined conditions.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **ESP32-CAM Module**: For video capture and streaming.
 - **OpenCV**: For face detection and image processing.
@@ -20,7 +20,7 @@ This project involves a distributed system using ESP32 modules to stream video, 
 - **MQTT/HTTP**: For communication between Face Detection Server and Pocket ESP32 Module.
 - **Raspberry Pi/Computer**: To run the Face Detection Server.
 
-## 📷 System Architecture
+## System Architecture
 
 The following diagram illustrates the architecture of the system:
 
